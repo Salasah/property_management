@@ -1,0 +1,26 @@
+# [project]
+# name = "property_management"
+# authors = [
+#     { name = "Savan S. Patel", email = "contact@solufy.in" }
+# ]
+# description = "Property Management system for Real Estate Vertical"
+# requires-python = ">=3.10"
+# readme = "README.md"
+# dynamic = ["version"]
+# dependencies = [
+#     "frappe~=15.0.0",    # Frappe for core functionality
+# ]
+
+# [build-system]
+# requires = ["flit_core >=3.4,<4"]
+# build-backend = "flit_core.buildapi"
+
+# # These dependencies are only installed when developer mode is enabled
+# [tool.bench.dev-dependencies]
+# pytest = "~6.0.0"      # Example: Pytest for testing (replace with actual dev dependencies)
+# black = "~23.0.0"      # Example: Black for code formatting (replace with actual dev dependencies)
+# flask = "~2.1.0"       # Example: Flask for local development if you're using it (replace with actual dev dependencies)
+
+# [tool.bench.frappe-dependencies]
+# frappe = ">=15.0.0,<16.0.0"  # Core Frappe framework version
+# erpnext = ">=15.0.0,<16.0.0" # ERPNext version compatible with Frappe
